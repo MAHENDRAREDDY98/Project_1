@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Single product Page</title>
+  <link rel="stylesheet" href="/src/style/main.css">
+  <link rel="stylesheet" href="/src/style/bootswatch.css">
+</head>
+
+<body>
+  <header class="container pt-3">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">GetBooK</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03"
+          aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor03">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home
+                <span class="visually-hidden">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shop</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle show" data-bs-toggle="dropdown" href="#" role="button"
+                aria-haspopup="true" aria-expanded="true">Dropdown</a>
+              <div class="dropdown-menu" data-bs-popper="none">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-sm-2" type="text" placeholder="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container single-product">
+    <div class="">
+      <div class="row">
+        <div class="col-md-5 col-sm-12">
+          <img class="single-product__img img-fluid" src="src/images/plain.jpg" alt="random Image">
+        </div>
+        <div class="col-md-7 col-sm-12 single-product__data">
+          <h2 class="single-product__data__title">Plain NoteBook</h2>
+          <hr>
+          <p class="single-product__data__about">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus
+            repellendus commodi molestias omnis laborum dicta iste. Ducimus explicabo aliquam aspernatur hic ipsum nobis
+            voluptatum eius corrupti. Perferendis blanditiis dignissimos voluptatem.</p>
+          <p>Nullam quis risus eget <a href="#">urna mollis ornare</a> vel eu leo. Cum sociis natoque penatibus et
+            magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
+          <table class="table table-light w-50 single-product__data__table">
+            <tbody>
+              <tr>
+                <td>Height:</td>
+                <td>0.5cm</td>
+              </tr>
+              <tr>
+                <td>width:</td>
+                <td>15.0cm</td>
+              </tr>
+              <tr>
+                <td>weight:</td>
+                <td>200gm</td>
+              </tr>
+              <tr>
+                <td>Sku:</td>
+                <td>15377345</td>
+              </tr>
+            </tbody>
+          </table>
+          <h2 class="single-product__data__price">$ 15.00</h2>
+          <input type="number" class="single-product__data__input" id="productCount">
+          <button type="button" class="btn btn-info">Purchase</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div class="container similar-product">
+    <h2 class="similar-product__title">Similar Products</h2>
+    <div class="row similar-product__card-group">
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card similar-product__card-group__card">
+          <img src="src/images/ruld.jpeg" class="card-img-top" alt="ruld-noteBook">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <p>$ 12.00</p>
+            <button type="button" class="btn btn-info">View</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card similar-product__card-group__card">
+          <img src="src/images/ruld.jpeg" class="card-img-top" alt="ruld-noteBook">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <p>$ 12.00</p>
+            <button type="button" class="btn btn-info">View</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card similar-product__card-group__card">
+          <img src="src/images/ruld.jpeg" class="card-img-top" alt="ruld-noteBook">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <p>$ 12.00</p>
+            <button type="button" class="btn btn-info">View</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card similar-product__card-group__card">
+          <img src="src/images/ruld.jpeg" class="card-img-top" alt="ruld-noteBook">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <p>$ 12.00</p>
+            <button type="button" class="btn btn-info">View</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card similar-product__card-group__card">
+          <img src="src/images/ruld.jpeg" class="card-img-top" alt="ruld-noteBook">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <p>$ 12.00</p>
+            <button type="button" class="btn btn-info">View</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card similar-product__card-group__card">
+          <img src="src/images/ruld.jpeg" class="card-img-top" alt="ruld-noteBook">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <p>$ 12.00</p>
+            <button type="button" class="btn btn-info">View</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <footer class="container-fluid">
+    <div class="footer container">
+      <h2 class="footer__title">Footer Title</h2>
+      <p class="footer__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum similique aut inventore est
+        quas numquam harum voluptatem modi, voluptatibus maxime temporibus repellat ipsum laudantium pariatur.
+        Doloremque nemo possimus quo distinctio.</p>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
